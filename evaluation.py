@@ -15,7 +15,7 @@ class Result:
 def run_queries(db, np_rows, top_k, num_runs):
     results = []
     for _ in range(num_runs):
-        query = np.random.random((1,64))
+        query = np.random.random((1,70))
         
         tic = time.time()
         db_ids = db.retrieve(query, top_k)
