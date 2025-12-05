@@ -1,0 +1,4 @@
+venv
+*.dat
+main.py
+__pycache__
